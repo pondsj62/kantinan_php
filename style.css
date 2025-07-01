@@ -1,0 +1,69 @@
+body {
+    background-color: #ebb0ebc6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: #3661ef;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    
+}
+.content {
+    text-align: center;
+    color: #de440c;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+#bbb {
+    text-align: center;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 2px; /* ลดช่องว่างให้ปุ่มชิดกันมากขึ้น */
+}
+.button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button:hover {
+    background-color: #912929; 
+    font-size: 24px;
+    cursor: pointer; 
+    
+}
+.success {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #008CBA; /* Blue */
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.success:hover {
+    background-color: #b208c9; 
+    font-size: 24px;
+    cursor: pointer; 
+}
