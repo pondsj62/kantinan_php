@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">   
 </head>
 <body>
+    <?php include 'header.php'; ?>
+    
     <h2>Welcome to the IoT Data Page</h2>
     <p class="content">This page is designed to display IoT data collected from various sensors.</p>
     <div id="bbb">
