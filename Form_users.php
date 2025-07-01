@@ -1,3 +1,7 @@
+ <link rel="stylesheet" href="style.css">   
+ <?php
+ include 'header.php';
+    ?>
 <form action="insert_users.php" method="post">
     ID Name: <input type="text" name="ID" /> <br/>
     NAME: <input type="text" name="NAME" /> <br/>

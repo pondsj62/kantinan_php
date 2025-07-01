@@ -1,3 +1,5 @@
+ <link rel="stylesheet" href="style.css">   
+ 
 <?php
 include 'connect.php';
 
@@ -6,6 +8,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // Output data of each row
+    include 'header.php';
     echo "<table border='1'>
             <tr>
                 <th>ID</th>
