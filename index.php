@@ -14,7 +14,12 @@
     <?php include 'header.php'; ?>
     
     <h2>Welcome to Website</h2>
-    <?php echo"$_SESSION[EMAIL]"; ?>
+    <?php 
+    if (isset($_SESSION['EMAIL'])) {
+        echo $_SESSION['EMAIL'];
+    }
+    
+    ?>
 
     
     <p class="content">This page is designed to display IoT data collected from various sensors.</p>
