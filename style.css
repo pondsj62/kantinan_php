@@ -92,3 +92,98 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+/* เพิ่มสไตล์สำหรับฟอร์มสมัครสมาชิก */
+/* ...existing code... */
+
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f8fb;
+}
+
+.register-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+    padding: 40px 32px 32px 32px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.register-title {
+    text-align: left;
+    color: #222;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    color: #222;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.form-group input {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #f9fafb;
+    transition: border 0.2s;
+}
+
+.form-group input:focus {
+    border: 1.5px solid #4CAF50;
+    outline: none;
+    background: #fff;
+}
+
+.register-btn {
+    width: 100%;
+    background: #19c419;
+    color: #fff;
+    border: none;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+
+.register-btn:hover {
+    background: #0e9e0e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .register-card {
+        padding: 24px 8px;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
